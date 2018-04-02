@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title> Prototipo PA </title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <link type="text/css" rel="stylesheet" href="css/estilo.css"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <nav>
+        <div class="nav-wrapper cyan darken-3">
+            <a href="#" class="brand-logo" id="titulo">Meus Tickets</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html"><button id="btn-logoff" class="waves-effect waves-teal btn-flat grey lighten-2">Logoff </button></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="section">
+        <div class="row">
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="images/ticket.jpg" id="ticket-image">
+                  <span class="card-title black-text"><h5>Agendamento Casamento</h5></span>
+                </div>
+                <div class="card-content">
+                  Senha: ZXC-512
+                  <br>10 pessoas na Frente.
+                  <br>Rua x Bairro z - Cartório Tal
+                </div>
+                <div class="card-action">
+                  <a href="#">Visualizar Ticket</a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="images/ticket.jpg" id="ticket-image">
+                    <span class="card-title black-text"><h5>Cadastro de Firma</h5></span>
+                  </div>
+                  <div class="card-content">
+                    Senha: CBT-753
+                    <br>8 pessoas na Frente.
+                    <br>Rua x Bairro z - Cartório Tal
+                  </div>
+                  <div class="card-action">
+                    <a href="#">Visualizar Ticket</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m4">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="images/ticket.jpg" id="ticket-image">
+                    <span class="card-title black-text"><h5>Registro de Maternidade</h5></span>
+                  </div>
+                  <div class="card-content">
+                    Senha: RMT-012
+                    <br>2 pessoas na Frente.
+                    <br>Rua x Bairro z - Cartório Tal
+                  </div>
+                  <div class="card-action">
+                    <a href="#">Visualizar Ticket</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <div class="fixed-action-btn">
+        <a href="cadastro.html" class="btn-floating btn-large red">
+          <i class="large material-icons">add_circle</i>
+        </a>
+      </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="scripts/tickets.js"></script>
+  </body>
+</html>

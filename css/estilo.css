@@ -1,0 +1,35 @@
+body {
+    background: url("https://acesso.oab.org.br/content/img/bg-login-clubedeservicos.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#login-container {
+    margin-top: 20vh;
+    border-radius: 20px;
+    height: 55vh;
+    width: 120vh;
+}
+
+#login-container .section {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#titulo {
+    margin-left: 20px;
+}
+
+#ticket-image {
+    width: 250px;
+    height: 250px;
+}
+
+#btn-logoff {
+    margin-right: 15px;
+}
+
+#seta_voltar {
+    margin-left: 10px;
+    margin-top: 22px;
+}
